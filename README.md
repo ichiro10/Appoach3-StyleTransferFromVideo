@@ -4,7 +4,7 @@ In this project, we are aiming for  identifing which aspects of the character an
 
 ## Attribution
 
-The core code used in this project was created by  by Kfir Aberman et al. [Link-to-original-code-repo](https://github.com/DeepMotionEditing/deep-motion-editing). Their paper can be found 
+The core code used in this project was created by Kfir Aberman et al. [Link-to-original-code-repo](https://github.com/DeepMotionEditing/deep-motion-editing). Their paper can be found 
 [Here](https://deepmotionediting.github.io/papers/Motion_Style_Transfer-camera-ready.pdf).
 
 ## Modifications and Use Case
