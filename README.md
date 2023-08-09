@@ -17,20 +17,21 @@ Put VirtUS dataset in style_transfer/data , this Datset should retargeted to CMU
 ```python
 cd style_transfer/data_proc
 sh gen_dataset.sh
-  
+```  
 2. Test:
 To receive the demo examples, simply run
 
 ```python
 sh style_transfer/demo.sh
-
+```
 The results will be saved in style_transfer/demo_results
 
 3. retrain:
+```python
 python style_transfer/train.py
+```
 
-
-4. In case you want to add extra videos, you need to extract 2D joint positions from the video using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) , then use the resulting JSON files
+5. In case you want to add extra videos, you need to extract 2D joint positions from the video using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) , then use the resulting JSON files
 ## Acknowledgments
 
 I would like to express my gratitude to Kfir Aberman et al. for creating the initial codebase. Their contribution laid the groundwork for the enhancements made in this project.
