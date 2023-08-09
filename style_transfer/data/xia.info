@@ -1,0 +1,105 @@
+train:
+  num_clips: 842
+  distribution:
+    es:
+      explaining: 50
+      listening: 41
+      showing: 1
+      showingphone: 105
+      stopping: 44
+      waving: 49
+      idle: 33
+    neutral:
+      explaining: 0
+      listening: 0
+      showing: 1
+      showingphone: 29
+      stopping: 51
+      waving: 108
+      idle: 0
+    neurotic:
+      explaining: 94
+      listening: 4
+      showing: 1
+      showingphone: 59
+      stopping: 40
+      waving: 94
+      idle: 38
+test:
+  num_clips: 23
+  distribution:
+    es:
+      explaining: 3
+      listening: 3
+      showing: 1
+      showingphone: 1
+      stopping: 0
+      waving: 1
+      idle: 0
+    neutral:
+      explaining: 2
+      listening: 0
+      showing: 1
+      showingphone: 1
+      stopping: 0
+      waving: 1
+      idle: 0
+    neurotic:
+      explaining: 3
+      listening: 3
+      showing: 1
+      showingphone: 1
+      stopping: 0
+      waving: 1
+      idle: 0
+trainfull:
+  num_clips: 59
+  distribution:
+    es:
+      explaining: 6
+      listening: 6
+      showing: 1
+      showingphone: 3
+      stopping: 4
+      waving: 3
+      idle: 3
+    neutral:
+      explaining: 0
+      listening: 0
+      showing: 1
+      showingphone: 1
+      stopping: 4
+      waving: 3
+      idle: 0
+    neurotic:
+      explaining: 7
+      listening: 1
+      showing: 1
+      showingphone: 2
+      stopping: 4
+      waving: 4
+      idle: 5
+test_files:
+- es_01_000.bvh
+- es_01_001.bvh
+- es_01_002.bvh
+- es_02_000.bvh
+- es_02_001.bvh
+- es_02_002.bvh
+- es_03_000.bvh
+- es_04_000.bvh
+- es_06_000.bvh
+- neurotic_01_000.bvh
+- neurotic_01_001.bvh
+- neurotic_01_002.bvh
+- neurotic_02_000.bvh
+- neurotic_02_001.bvh
+- neurotic_02_002.bvh
+- neurotic_03_000.bvh
+- neurotic_04_000.bvh
+- neurotic_06_000.bvh
+- neutral_01_000.bvh
+- neutral_01_001.bvh
+- neutral_03_000.bvh
+- neutral_04_000.bvh
+- neutral_06_000.bvh

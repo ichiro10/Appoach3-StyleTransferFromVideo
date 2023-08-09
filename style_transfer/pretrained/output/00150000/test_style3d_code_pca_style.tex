@@ -1,0 +1,73 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{deepskyblue0212255}{RGB}{0,212,255}
+\definecolor{gold2552290}{RGB}{255,229,0}
+\definecolor{lightgray204}{RGB}{204,204,204}
+\definecolor{navy00127}{RGB}{0,0,127}
+
+\begin{axis}[
+legend cell align={left},
+legend style={
+  fill opacity=0.8,
+  draw opacity=1,
+  text opacity=1,
+  at={(2,1)},
+  anchor=west,
+  draw=lightgray204
+},
+minor xtick={},
+minor ytick={},
+tick align=outside,
+tick pos=left,
+x grid style={darkgray176},
+xmin=-0.05, xmax=1.05,
+xtick style={color=black},
+xtick={-0.2,0,0.2,0.4,0.6,0.8,1,1.2},
+y grid style={darkgray176},
+ymin=-0.05, ymax=1.05,
+ytick style={color=black},
+ytick={-0.2,0,0.2,0.4,0.6,0.8,1,1.2}
+]
+\addplot [draw=navy00127, fill=navy00127, mark=*, only marks]
+table{%
+x  y
+0.0190992597490549 0.118490628898144
+0.0217445492744446 0.126901626586914
+0.0120342560112476 0.164735585451126
+0 0.383566111326218
+0.0126556055620313 0.160280898213387
+0.996917068958282 0.894286692142487
+0.0180762503296137 0.144848302006721
+0.0268755871802568 0.191011637449265
+0.00977218057960272 0.242666333913803
+};
+\addlegendentry{es}
+\addplot [draw=deepskyblue0212255, fill=deepskyblue0212255, mark=*, only marks]
+table{%
+x  y
+0.0176968220621347 0.137338787317276
+0.0322828963398933 0.0524782948195934
+0.0347791686654091 0
+0.0303670056164265 0.0644891038537025
+0.0362829975783825 0.030278142541647
+0.0217991080135107 0.144052058458328
+0.0366137810051441 0.0125096682459116
+0.00326292123645544 0.30372542142868
+0.998683094978333 0.792864203453064
+};
+\addlegendentry{neurotic}
+\addplot [draw=gold2552290, fill=gold2552290, mark=*, only marks]
+table{%
+x  y
+0.187836065888405 0.364679872989655
+0.476178467273712 0.0924235582351685
+0.64854896068573 0.232423171401024
+0.0038118117954582 0.277680635452271
+1 1
+};
+\addlegendentry{neutral}
+\end{axis}
+
+\end{tikzpicture}

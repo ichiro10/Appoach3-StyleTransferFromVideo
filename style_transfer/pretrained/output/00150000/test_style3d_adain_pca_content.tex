@@ -1,0 +1,85 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{dodgerblue076255}{RGB}{0,76,255}
+\definecolor{greenyellow20525541}{RGB}{205,255,41}
+\definecolor{lightgray204}{RGB}{204,204,204}
+\definecolor{navy00127}{RGB}{0,0,127}
+\definecolor{orangered2551030}{RGB}{255,103,0}
+\definecolor{turquoise41255205}{RGB}{41,255,205}
+
+\begin{axis}[
+legend cell align={left},
+legend style={
+  fill opacity=0.8,
+  draw opacity=1,
+  text opacity=1,
+  at={(2,1)},
+  anchor=west,
+  draw=lightgray204
+},
+minor xtick={},
+minor ytick={},
+tick align=outside,
+tick pos=left,
+x grid style={darkgray176},
+xmin=-0.05, xmax=1.05,
+xtick style={color=black},
+xtick={-0.2,0,0.2,0.4,0.6,0.8,1,1.2},
+y grid style={darkgray176},
+ymin=-0.05, ymax=1.05,
+ytick style={color=black},
+ytick={-0.2,0,0.2,0.4,0.6,0.8,1,1.2}
+]
+\addplot [draw=navy00127, fill=navy00127, mark=*, only marks]
+table{%
+x  y
+0.00278185284696519 0.238911762833595
+0.0021552958060056 0.255499184131622
+0.393557339906693 0.700684487819672
+0.00254762801341712 0.249643325805664
+0.00278781913220882 0.257520496845245
+0.521342873573303 1
+0.00273013138212264 0.23997600376606
+0.00321202306076884 0.257381200790405
+};
+\addlegendentry{explaining}
+\addplot [draw=dodgerblue076255, fill=dodgerblue076255, mark=*, only marks]
+table{%
+x  y
+0.00345338345505297 0.260544925928116
+0.00267600850202143 0.244111180305481
+0.00255901995114982 0.234822168946266
+0.00257562170736492 0.234611019492149
+0.00305475015193224 0.240988597273827
+0.00240891915746033 0.255093187093735
+};
+\addlegendentry{listening}
+\addplot [draw=turquoise41255205, fill=turquoise41255205, mark=*, only marks]
+table{%
+x  y
+0 0.235871240496635
+0.000801377696916461 0.239330679178238
+0.00184475025162101 0.242176488041878
+};
+\addlegendentry{showing}
+\addplot [draw=greenyellow20525541, fill=greenyellow20525541, mark=*, only marks]
+table{%
+x  y
+0.974575102329254 0.0608985126018524
+0.976203978061676 0
+1 0.0361552238464355
+};
+\addlegendentry{showingphone}
+\addplot [draw=orangered2551030, fill=orangered2551030, mark=*, only marks]
+table{%
+x  y
+0.00218180101364851 0.232068195939064
+0.174426466226578 0.424099534749985
+0.00227572117000818 0.231148034334183
+};
+\addlegendentry{waving}
+\end{axis}
+
+\end{tikzpicture}

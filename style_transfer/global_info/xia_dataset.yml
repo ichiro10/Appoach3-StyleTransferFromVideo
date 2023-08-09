@@ -1,0 +1,13 @@
+style_names:
+  ["es", "neutral", "neurotic"]
+
+content_full_names:
+  ["explaining_","listening_","showing_", "showingphone_", "stopping_", "waving_", "idle_"]
+
+content_names:
+   ["explaining","listening","showing", "showingphone", "stopping", "waving","idle"]       
+     
+content_test_cnt:
+  {"explaining": 3,"listening": 3 ,"showing": 1, "showingphone": 1, "stopping": 0, "waving": 1,"idle": 0}
+
+
